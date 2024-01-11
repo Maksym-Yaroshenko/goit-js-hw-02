@@ -3,10 +3,6 @@ function getShippingCost(country) {
   const Chile = 250;
   const Australia = 170;
   const Jamaica = 120;
-  //   China = 100;
-  //   Chile = 250;
-  //   Australia = 170; // Поясніть будь ласка, чи є різниця між змінною в функції через (const) і просто самої змінної?
-  //   Jamaica = 120;
 
   switch (country) {
     case "China":
